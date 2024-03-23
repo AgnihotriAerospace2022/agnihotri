@@ -1,0 +1,55 @@
+
+
+.logo
+{
+
+  width:100px ;  
+  height :100px   ;
+ 
+
+}
+#logoimage
+{
+    height : 100% ;
+    width : 100% ;
+    display:inline-block;
+    
+}
+.links 
+{
+    display:inline-block;
+    
+}
+.div1
+{
+    display:inline-block ;
+    
+    
+}
+.div1 > a{
+    color :white ;
+    display:inline-block;
+    margin-left: 38px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+   
+}
+
+.humbergIcon
+{
+    display:none;
+}
+
+#sidebarToggle {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  #sidebarToggle svg {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2;
+  }
+  

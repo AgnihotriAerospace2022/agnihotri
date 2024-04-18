@@ -11,7 +11,7 @@ h1
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     display: block;
-    margin-left:40%;
+    margin-left:43%;
 }
 .container
 {
@@ -53,6 +53,5 @@ h1
     color:rgba(251, 255, 255, 0.676) ;
     width :50%;
 }
-
 
 

@@ -17,10 +17,7 @@ export default function Footer ()
                     </div>
                     
                     <div className="basis-5">
-                        <div className="border-solid border-slate-500 " style={{borderWidth:'1px',
-                                                                                        width:'2px',
-                                                                                        height:'180px'
-                                                                                        }}>
+                        <div className="border-solid border-slate-500 h-28 lg:h-44 w-[2px] border-x-2 rounded-lg" >
 
                         </div>
                     </div>
@@ -32,10 +29,7 @@ export default function Footer ()
                    
 
                     <div className="basis-5">
-                        <div className="border-solid border-slate-500 " style={{borderWidth:'1px',
-                                                                                        width:'2px',
-                                                                                        height:'180px',
-                                                                                        borderRadius:'100px'}}>
+                        <div className="border-solid border-slate-500 h-28 lg:h-44 w-[2px] border-x-2 rounded-lg" >
 
                         </div>
                     </div>
@@ -47,9 +41,8 @@ export default function Footer ()
                             </div>
 
                     <div className="basis-5">
-                        <div className="border-solid hidden lg:inline-block border-slate-500 mx-4 my-2" style={{borderWidth:'1px',
-                                                                                        width :'350px',
-                                                                                        borderRadius:'100px'}}>
+                        <div className="border-solid hidden lg:inline-block h-1 rounded-lg border-slate-500 bg-slate-500 mx-4 my-2 w-[350px] "
+                         >
                                                                                     
                         </div>
                     </div>

@@ -35,10 +35,18 @@
   @media only screen and (max-width:740px )  {
     .swiper{
       border-radius:15px;
+      height :72%;
+
     }
     
   }
-
+@media only screen and (max-width:740px )  {
+    #app{
+     
+      margin-bottom :-90px;
+    }
+    
+  }
 
   
   .swiper-slide {

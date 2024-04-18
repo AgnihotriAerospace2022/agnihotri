@@ -42,22 +42,22 @@ export default function Input() {
         </button>
         {
           joinClick && <div
-        className='flex justify-center align-middle -translate-y-[25vh] animate-popup z-50 '
+        className=' flex justify-center align-middle lg:-translate-y-[25vh] lg:animate-popup animate-popupSm  -translate-y-[18vh] translate-x-2'
         >
           
-          <div className="absolute backdrop-blur-sm bg-white/50
-          h-[40vh]   w-[95vw] -translate-x-10 rounded-2xl "
+          <div className="absolute backdrop-blur-sm bg-white/50 h-[28vh]
+          lg:h-[40vh]  lg:w-[95vw]  rounded-2xl "
           >
             
-            <div className="absolute right-7 text-white text-3xl top-3 cursor-pointer" onClick={handleclick}>X</div>
+            <div className="absolute  right-7 text-white lg:text-3xl text-2xl top-3 cursor-pointer" onClick={handleclick}>X</div>
             {submit &&
               <div>
-                <h1 className="text-center text-4xl m-10 mb-12 text-white">Stay Updated With Us</h1>
-              <div className="m-10 ml-[35vw] flex flex-col justify-center align-middle">
+                <h1 className="text-center text-2xl lg:text-4xl m-5 mb-8 mt-12 lg:m-10 lg:mb-12 text-white">Stay Updated With Us</h1>
+              <div className="m-5  lg:m-10 lg:ml-[35vw] flex flex-col justify-center align-middle">
               <input
                 type="email"
                 placeholder="         E-mail"
-                className=" w-64 block  mb-5 lg:w-80 h-12 rounded-2xl bg-zinc-200"
+                className=" w-64 block  mb-5 lg:w-80 lg:h-12 h-10 rounded-2xl bg-zinc-200"
               />
               <button
               type="submit"
@@ -72,7 +72,7 @@ export default function Input() {
           </div>}
           {
             !submit && 
-            <div className="m-36 flex justify-center text-black text-3xl">
+            <div className="lg:m-36 m-20 text-xl flex justify-center text-black lg:text-3xl">
               <div>
                 submited succesfully !!
               </div>

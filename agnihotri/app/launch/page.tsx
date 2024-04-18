@@ -22,7 +22,7 @@ function Launch() {
             <h1>Launch</h1>
           </center>
         </Link>
-        <section className="flex flex-col gap-20 justify-center align-middle  container-style">
+        <section className="flex flex-col gap-20 justify-center align-middle  container-style scale-50 opacity-30 animate-onScrollFade ">
           <div className="flex lg:flex-row flex-col gap-10 m-10 rocketContent">
           <img
               src={"/images/image1.jpg"}

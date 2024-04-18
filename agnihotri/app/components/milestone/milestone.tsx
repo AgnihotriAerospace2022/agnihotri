@@ -36,7 +36,7 @@ export default function Milestone() {
           <SwiperSlide>
             <div className="content">
               <img src={"/images/image1.jpg"} alt="" />
-              <div className="content-inside">
+              <div className="content-inside lg:text-base text-sm">
                 These are just a few ways that one might use the random sentence
                 generator for their benefit. If you're not sure if it will help
                 in the way you want, the best course of action is to try it and
@@ -48,7 +48,7 @@ export default function Milestone() {
           <SwiperSlide>
             <div className="content">
               <img src={"/images/image2.jpg"} alt="" />
-              <div className="content-inside">
+              <div className="content-inside lg:text-base text-sm">
                 These are just a few ways that one might use the random sentence
                 generator for their benefit. If you're not sure if it will help
                 in the way you want, the best course of action is to try it and
@@ -60,7 +60,7 @@ export default function Milestone() {
           <SwiperSlide>
             <div className="content">
               <img src={"/images/image3.jpg"} alt="" />
-              <div className="content-inside">
+              <div className="content-inside lg:text-base text-sm">
                 These are just a few ways that one might use the random sentence
                 generator for their benefit. If you're not sure if it will help
                 in the way you want, the best course of action is to try it and
@@ -72,7 +72,7 @@ export default function Milestone() {
           <SwiperSlide>
             <div className="content">
               <img src={"/images/image1.jpg"} alt="" />
-              <div className="content-inside">
+              <div className="content-inside lg:text-base text-sm">
                 These are just a few ways that one might use the random sentence
                 generator for their benefit. If you're not sure if it will help
                 in the way you want, the best course of action is to try it and
@@ -84,7 +84,7 @@ export default function Milestone() {
           <SwiperSlide>
             <div className="content">
               <img src={"/images/image2.jpg"} alt="" />
-              <div className="content-inside">
+              <div className="content-inside lg:text-base text-sm">
                 These are just a few ways that one might use the random sentence
                 generator for their benefit. If you're not sure if it will help
                 in the way you want, the best course of action is to try it and
@@ -96,7 +96,7 @@ export default function Milestone() {
           <SwiperSlide>
             <div className="content">
               <img src={"/images/image3.jpg"} alt="" />
-              <div className="content-inside">
+              <div className="content-inside lg:text-base text-sm">
                 These are just a few ways that one might use the random sentence
                 generator for their benefit. If you're not sure if it will help
                 in the way you want, the best course of action is to try it and
@@ -108,7 +108,7 @@ export default function Milestone() {
           <SwiperSlide>
             <div className="content">
               <img src={"/images/image3.jpg"} alt="" />
-              <div className="content-inside">
+              <div className="content-inside lg:text-base text-sm">
                 These are just a few ways that one might use the random sentence
                 generator for their benefit. If you're not sure if it will help
                 in the way you want, the best course of action is to try it and
@@ -120,7 +120,7 @@ export default function Milestone() {
           <SwiperSlide>
             <div className="content">
               <img src={"/images/image1.jpg"} alt="" />
-              <div className="content-inside">
+              <div className="content-inside lg:text-base text-sm">
                 These are just a few ways that one might use the random sentence
                 generator for their benefit. If you're not sure if it will help
                 in the way you want, the best course of action is to try it and
@@ -132,7 +132,7 @@ export default function Milestone() {
           <SwiperSlide>
             <div className="content">
               <img src={"/images/image2.jpg"} alt="" />
-              <div className="content-inside">
+              <div className="content-inside lg:text-base text-sm">
                 These are just a few ways that one might use the random sentence
                 generator for their benefit. If you're not sure if it will help
                 in the way you want, the best course of action is to try it and

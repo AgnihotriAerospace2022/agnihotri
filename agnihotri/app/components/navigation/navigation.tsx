@@ -34,7 +34,7 @@ export default function Navigate() {
         
           </div>
           <div className="basis-3/4  hidden lg:inline-block flex justify-end ml-80">
-          <div className="links ml-44 mt-10">
+          <div className="links ml-38 translate-x-16 mt-10">
             <div className="div1">
               <Link href="/launch">Launch</Link>
             </div>
@@ -43,6 +43,12 @@ export default function Navigate() {
             </div>
             <div className="div1">
               <Link href="/about" >About</Link>
+            </div>
+            <div className="div1">
+              <Link href="/product">Product </Link>
+            </div>
+            <div className="div1">
+              <Link href="/work">Work With Us </Link>
             </div>
             <div className="div1">
               <Link href="/contact">Contact </Link>

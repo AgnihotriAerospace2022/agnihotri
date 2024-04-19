@@ -42,7 +42,7 @@ export default function Input() {
         </button>
         {
           joinClick && <div
-        className=' flex justify-center align-middle lg:-translate-y-[25vh] lg:animate-popup animate-popupSm  -translate-y-[18vh] translate-x-2'
+        className=' flex justify-center align-middle lg:-translate-y-[25vh] lg:animate-popup animate-popupSm  -translate-y-[18vh] translate-x-2 lg:-translate-x-9'
         >
           
           <div className="absolute backdrop-blur-sm bg-white/50 h-[28vh]

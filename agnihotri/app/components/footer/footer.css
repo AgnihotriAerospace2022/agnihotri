@@ -1,6 +1,7 @@
 body
 {
     background-color: black;
+    
 }
 .footer-body
 {   padding :0;
@@ -8,7 +9,7 @@ body
     height : 270px;
     background-color: black;
     position: relative;
-
+   
 }
 
 .logo {

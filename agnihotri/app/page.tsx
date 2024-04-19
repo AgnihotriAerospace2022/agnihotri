@@ -24,8 +24,8 @@ export default function Home() {
               <span className="opacity-30 ">the</span> horizon{" "}
               <span className="opacity-30 ">of</span> space{" "}
             </p>
-            <p className="text-white text-right opacity-100 animate-onScrollFade">exploration</p>
-            {/* <p className="text-right opacity-75 
+           
+            <p className="text-right opacity-75 
              bg-gradient-to-r from-sky-400 from-30% via-purple-400 to-red-300 bg-clip-text text-transparent">
               <ReactTyped
                 strings={["exploration","expansion"]}
@@ -33,7 +33,7 @@ export default function Home() {
                 backSpeed={150}
                 loop
               />
-            </p> */}
+            </p>
           </div>
         </div>
         <div className="mt-1/4 mb-1/5 -ml-7">

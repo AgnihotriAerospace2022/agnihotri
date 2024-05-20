@@ -3,6 +3,7 @@ import logo from "@/public/images/logo_white.png"
 import Input from "./FooterInput";
 import Items from "./FooterItems";
 import Icons from "./FooterICons";
+import Image from "next/image";
 
 const width ='100%';
 const height = '100%'  ;
@@ -13,7 +14,7 @@ export default function Footer ()
             <div className="flex bg-gray-950   pt-12 ">
                 
                     <div className="basis-1/3 lg:basis-1/3 -mr-5 lg:-my-20">
-                    <img src={"/images/logo_white.png"} className="inline-block l" />
+                    <img src={"/images/logo_white.png"} className="inline-block l" alt='logo'/>
                     </div>
                     
                     <div className="basis-5">

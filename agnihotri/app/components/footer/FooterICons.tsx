@@ -8,7 +8,7 @@ import { brands} from "@fortawesome/fontawesome-svg-core/import.macro";
 export default function Icons()
 {
     return (<>
-         <div className="flex hidden lg:inline-block lg:ml-10">
+         <div className="flex flex-row hidden lg:inline-block lg:ml-10">
                                  <a href="#" className="basis-12 mx-1 hover:opacity-30" >
                                     <FontAwesomeIcon icon={faInstagram } size="2xl" style={{color: "#ffffff",}} />
                                 </a>

@@ -1,34 +1,35 @@
 import React, { useState } from 'react';
+import "./navigation.css"
 
 export default function Menu  () {
-  const [isOpen, setIsOpen] = useState(false);
-
+  
+  const [menu , setMenu] = useState(false);
+  
+  const [hamburg ,setHumburg] = useState('humburg')  ;
   
   const handleClick = () => {
-      setIsOpen(!isOpen);
+    if (!menu){
+      setMenu(true);
+      setHumburg('humburg clicked');
+    }
+    else {
+      setMenu(false);
+      setHumburg('humburg unclicked');
+    
+    }
+    console.log(menu,'menu');
+      
   };
 
 return(
     
-  <button onClick={handleClick} 
-  className="flex flex-col justify-center items-center bg-white">
-    <span className={`bg-steel-500 block transition-all duration-300 ease-out 
-                    h-0.5 w-6 rounded-sm ${isOpen ? 
-                    'rotate-45 translate-y-1' : '-translate-y-0.5'
-                    }`} >
-    </span>
-    <span className={`bg-steel-500 block transition-all duration-300 ease-out 
-                    h-0.5 w-6 rounded-sm my-0.5 ${isOpen ? 
-                    'opacity-0' : 'opacity-100'
-                    }`}>
-    </span>
-    <span className={`bg-steel-500 block transition-all duration-300 ease-out 
-                    h-0.5 w-6 rounded-sm ${isOpen ? 
-                    '-rotate-45 -translate-y-1' : 'translate-y-0.5'
-                    }`} >
-    </span>    
+  <div className='menu' onClick={handleClick}>
+      <div className={hamburg}></div>
+      <div className={hamburg}></div>
+      <div className={hamburg}></div>
+  </div>
 
-  </button>
+
   
 );
 }

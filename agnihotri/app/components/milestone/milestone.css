@@ -1,9 +1,10 @@
-#app {
+.app {
     margin:50px;
-    height: 500px;;
+    margin-right :0px;
+    height: 600px;
     width :80%;
-    margin-left :60px;
     margin-top : 70px;
+    position: relative;
     background: #010101;
     
     
@@ -27,7 +28,7 @@
   
   .swiper {
     width: 100%;
-    border-radius: 50px;
+    border-radius: 30px;
     height: 100%;
     box-shadow: -0px 2px 70px 1px rgba(203, 226, 226, 0.532);
   }
@@ -79,18 +80,4 @@
     position : relative;
   }
 
-  .content img 
-  {
-    width : 100%;
-    height :100% ;
-  }
-
-  .content-inside
-  {
-    width : 100%;
-    position : absolute;
-    height: 20%;
-    
-    backdrop-filter: blur(5px);
-    bottom :50px;
-  }
+  

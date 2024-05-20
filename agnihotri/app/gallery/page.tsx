@@ -59,42 +59,37 @@ export default function Gallery() {
           modules={[EffectCoverflow, Pagination ,Navigation]}
           className="mySwiper"
         > 
-         {/* https://drive.google.com/thumbnail?id={Enter Your ID}&sz=w1000 */}
 
           <SwiperSlide>
-            <img src="https://drive.google.com/thumbnail?id=13uUtoqKD6Uzp5-eJQj5SN7R5FnI7Rgbn&sz=w1000" 
-            alt=''/>
+            <img  src="https://i.ibb.co/2hTSGt9/11.jpg" className='imageclass'
+           />
           </SwiperSlide>
           <SwiperSlide>
-            <img src=" https://drive.google.com/thumbnail?id=1O9qcxCwsSUIhBD27_YvMtObHr1bMaCo_&sz=w1000" alt=''/>
+          <img   src=" https://i.ibb.co/1RdfzYK/9.jpg" className='imageclass'/>
           </SwiperSlide>
           <SwiperSlide> 
-            <img src="https://drive.google.com/thumbnail?id=1_6VaI06itOMtm_fG-N6jB9a9CGLViG50&sz=w1000"alt='' />
+            <img src="https://i.ibb.co/n8vq6pQ/8.jpg"alt='' className='imageclass'/>
           </SwiperSlide>
           <SwiperSlide> 
-            <img src="https://drive.google.com/thumbnail?id=13FFz_vMQ8Nb7kBVmDqpasEBrfwfypSWu&sz=w1000"alt='' />
+            <img src="https://i.ibb.co/dgVPHKv/7.jpg"alt='' className='imageclass'/>
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://drive.google.com/thumbnail?id=1aprFVHKTXVYCHPQGdJ6gxI6MJWMUZ_ru&sz=w1000" alt='' />
+            <img src="https://i.ibb.co/dkwCHhJ/5.jpg" alt='' className='imageclass'/>
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://drive.google.com/thumbnail?id=1cD8nDDSJzh0sUzcuAI0AYFfu0B2s5P-Z&sz=w1000" alt=''/>
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://drive.google.com/thumbnail?id=1ASxvhJTG40bT97tVxJmRYu8ue9pJgdjz&sz=w1000" alt=''/>
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://drive.google.com/thumbnail?id=1-fZFOwJgZJRRy8XfxbY2JoRKNVfbYHFG&sz=w1000" alt='' />
-          </SwiperSlide>
-           <SwiperSlide>
-            <img src="https://drive.google.com/thumbnail?id=1dDzkiBXr4hD1B7rnu8fG0lBA85nRXg77&sz=w1000" alt='' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://drive.google.com/thumbnail?id=1OpWzjj6Eu7RcbdPSY6fm2gCNjXNZxiby&sz=w1000" alt='' />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://drive.google.com/thumbnail?id=1kzNpsULS2M9P_llnvvB9EE8dtjVKHl_c&sz=w1000" alt='' />
-          </SwiperSlide>
+            <div className='relative top-28 lg:top-44 lg:h-[45vh] h-[40vh]  lg:w-[35vw] rounded-lg'>
+              <img src="https://i.ibb.co/5x0SWRL/Whats-App-Image-2024-05-18-at-14-36-01-37caabb8.jpg"
+              className='h-[100%] rounded-3xl bg-gradient-to-b from-transparent to-transparent ' alt='' />
+            </div>
+            
+            {/* [url=https://ibb.co/nQNdKW8][img]https://i.ibb.co/dkwCHhJ/5.jpg[/img][/url]
+[url=https://ibb.co/nCY7Kky][img][/img][/url]
+[url=https://ibb.co/DgyPzdw][img][/img][/url]
+[url=https://ibb.co/h2ZRYxH][img][/img][/url]
+[url=https://ibb.co/4tH2hTq][img][/img][/url]
+[url=https://ibb.co/7NfZJ1K][img][/img][/url] */}
+            
+            </SwiperSlide> 
          </Swiper>
          <div className="footer">
           <Footer></Footer>

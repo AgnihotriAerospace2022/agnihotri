@@ -7,6 +7,21 @@ import PageLoader from "../components/loader/pageLoader";
 
 function Contact() {
   const [isLoading, setIsLoading] = useState(true);
+  const [firstname, setFirstName] = useState(" kuiu");
+  const [lastname, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [query, setQuery] = useState("");
+  
+  
+  
+  const handleSubmit = () => {
+
+    setEmail('');
+    setFirstName('');
+    setLastName('');
+    setQuery('');
+
+  };
 
   useEffect(() => {
     // Simulating an asynchronous action
@@ -41,10 +56,17 @@ function Contact() {
               <input
                 placeholder="        First Name"
                 className="m-5 w-64 lg:w-72 h-16 rounded-full bg-zinc-200"
+                value={firstname}
+                onChange={function (e) {
+                 
+                  setFirstName(e.target.value);
+                }}
               />
               <input
                 placeholder="        Last  Name"
                 className="m-5 w-64 lg:w-72 h-16 rounded-full bg-zinc-200"
+                value={lastname}
+                onChange={e => setLastName(e.target.value)}
               />
             </div>
             <div id="email">
@@ -52,6 +74,8 @@ function Contact() {
                 type="email"
                 placeholder="         E-mail"
                 className="m-5 w-64 lg:-mt-16 lg:w-80 h-16 rounded-full bg-zinc-200"
+                value={email}
+                onChange={e => setEmail(e.target.value)}
               />
             </div>
             <input
@@ -59,6 +83,8 @@ function Contact() {
               name="query"
               placeholder="    Got Any Questions?feel free to let us know"
               className="lg:m-5 h-32 -ml-3 w-[340px] rounded-3xl lg:h-44"
+              value={query}
+              onChange={e => setQuery(e.target.value)}
             />
             <button
               type="submit"
@@ -66,6 +92,7 @@ function Contact() {
               rounded-2xl ml-24 lg:ml-56 lg:w-44 lg:h-14 font-extrabold
                border-emerald-800 border-2 ease-in-out duration-200 hover:bg-emerald-800 hover:text-white
                cursor-none"
+               onClick={handleSubmit}
             >
               submit
             </button>

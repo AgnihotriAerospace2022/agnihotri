@@ -33,57 +33,11 @@ const About = () => {
       lg:w-[100%] lg:h-[100%] lg:mt-[100px]
       flex gap-12 flex-col justify-center "
           >
-            <div
-              className="NameContent
-        lg:mr-[150px]
-        ml-10 mr-10
-         lg:ml-[150px] lg:flex 
-        flex-row gap-8   text-zinc-400 scale-50 opacity-30 animate-onScrollFade "
-            >
-              <img
-                src={"/images/logo_white.png"}
-                alt=""
-                className="lg:hidden  
-      rounded-3xl h-56   "
-              />
-              <div className="flex-col">
-                <p className="inline-block p-3 mt-2 text-lg text-white">
-                  At our space technology startup, we are driven by a persistent
-                  dedication to addressing the industry&apos;s most pressing issues.
-                </p>
-                <p className=" p-8 pb-12 text-zinc-400  -mt-10 ">
-                  <ul className="duration-300">
-                    <li className="p-3 text-base duration-300 animate-onScrollFade">
-                      <span className="text-lg text-white">
-                        → High cost per launch:
-                      </span>{" "}
-                      Our main goal is to significantly lower the outrageous
-                      expenses related to space launches.
-                    </li>
-                    <li className="p-3 text-base duration-300 animate-onScrollFade">
-                      <span
-                        className="text-lg text-white
-                    "
-                      >
-                        → Long wait times between launches:
-                      </span>{" "}
-                      We&apos;re committed to reducing the long wait times between
-                      launches so that our customers can get space more quickly.
-                    </li>
-                  </ul>
-                  <p className="-ml-5 mt-2 text-base">
-                    By innovating and optimizing our processes, we aim to make
-                    space more accessible and affordable while providing faster
-                    access to orbit for our customers.
-                  </p>
-                </p>
-              </div>
-              <img
-                src={"/images/logo_white.png"}
-                alt=""
-                className="w-80 lg:inline-block rounded-3xl  h-52 hidden"
-              />
-            </div>
+
+
+
+
+            
             <div
               className="NameContent  scale-50 opacity-30 animate-onScrollFade
         lg:mr-[150px]

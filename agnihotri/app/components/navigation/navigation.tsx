@@ -20,7 +20,7 @@ export default function Navigate() {
   return (
     <>
       <div className="">
-        <div className="color mx-0 my-0 px-0 h-14">
+        <div className="color mx-0 my-0 px-0 h-16">
           <div className="flex flex-row ">
             <div className="basis-3/6 ">
               <Link href="/">

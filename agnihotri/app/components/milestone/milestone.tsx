@@ -11,10 +11,6 @@ import "swiper/css/navigation";
 
 import "./milestone.css";
 
-import image1 from "/Users/sanjanathyady/Documents/Files/ag/agnihotri/app/assets/images/image1.jpg";
-import image2 from "/Users/sanjanathyady/Documents/Files/ag/agnihotri/app/assets/images/image3.jpg";
-import image3 from "/Users/sanjanathyady/Documents/Files/ag/agnihotri/app/assets/images/image2.jpg";
-
 import { Pagination, Navigation } from "swiper/modules";
 
 export default function Milestone() {
@@ -35,10 +31,27 @@ export default function Milestone() {
           >
             <SwiperSlide>
               <div className=" flex flex-row w-[100%] h-[100%]">
-                <div className="h-[100%] w-[500vw]"><img src={"/images/image1.jpg"} alt="" /></div>
-                <div className="bg-black lg:text-base text-sm p-24 pt-40 text-white 
-                 ">
-                
+                <div className="h-[100%] w-[200vw] ">
+                  {
+                    
+                      <div className="h-[100%] w-[100%] bg-black">
+                        <iframe
+                          className="h-[100%] w-[45vw] pt-10"
+                          src="https://embed.wave.video/uw9lrmeVL3hVk0HI"
+                          frameBorder="0"
+                          allow="autoplay; "
+                          scrolling="no"
+                        ></iframe>
+                      </div>
+                    
+                  }
+
+                  {/*  */}
+                </div>
+                <div
+                  className="bg-black lg:text-base text-sm p-24 pt-40 text-white 
+                 "
+                >
                   The engine, precisely designed with both convergent and
                   divergent nozzles, has undergone intensive testing to ensure
                   its performance. It has been rigorously tested and proven to
@@ -54,9 +67,20 @@ export default function Milestone() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="content">
-                <img src={"/images/image2.jpg"} alt="" />
-                <div className="content-inside lg:text-base text-sm p-2">
+              <div className="flex flex-row w-[100%] h-[100%]">
+                <div className="h-[100%] w-[500vw] bg-black">
+                {  <div className="h-[100%] w-[100%]">
+                      <iframe
+                        className="h-[100%] w-[35vw] pl-28 pb-0"
+                        src="https://embed.wave.video/Jw5hmkdIoAivMZpv"
+                        frameBorder="0"
+                        allow="autoplay; "
+                        scrolling="no"
+                      ></iframe>
+                    </div>
+                  }
+                </div>
+                <div className="bg-black lg:text-base text-sm p-24 pt-40 text-white ">
                   With fantastic joy, we announce the of completion of the
                   satellite payload, which became executed thru painstaking
                   meeting and integration of modern additives. This milestone
@@ -72,9 +96,20 @@ export default function Milestone() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="content">
-                <img src={"/images/image3.jpg"} alt="" />
-                <div className="content-inside lg:text-base text-sm p-2">
+              <div className="flex flex-row w-[100%] h-[100%]">
+                <div className="h-[100%] w-[500vw]">
+                {  <div className="h-[100%] w-[100%] bg-black">
+                      <iframe
+                        className="h-[100%] w-[45vw] pt-10 "
+                        src="https://embed.wave.video/Jd19D7UR3h23YPSh"
+                        frameBorder="0"
+                        allow="autoplay; "
+                        scrolling="no"
+                      ></iframe>
+                    </div>
+                  }
+                </div>
+                <div className="bg-black lg:text-base text-sm p-24 pt-40 text-white ">
                   It brings us great pleasure to declare that we broke the speed
                   record on our most recent test flight, reaching 600 miles per
                   hour! This flight demonstrated the exceptional performance and
@@ -82,9 +117,10 @@ export default function Milestone() {
                   conducted in ideal weather circumstances. This accomplishment
                   is more than simply a triumph for us; it represents a leap
                   ahead in aviation technology, stretching the frontiers of what
-                  was previously thought conceivable. We&apos;re delighted about the
-                  possibilities that this achievement opens up, and we&apos;re ready
-                  to keep pushing the envelope of aviation innovation.
+                  was previously thought conceivable. We&apos;re delighted about
+                  the possibilities that this achievement opens up, and
+                  we&apos;re ready to keep pushing the envelope of aviation
+                  innovation.
                 </div>
               </div>
             </SwiperSlide>

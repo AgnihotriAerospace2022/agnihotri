@@ -35,82 +35,114 @@ const About = () => {
           >
 
 
-
-
-            
+                  <img src={"/images/logo_white.png"}
+                  className="inline-block h-[50vh] lg:h-[70vh]  lg:ml-10 lg:pl-10 pl-10 lg:-mt-10  "
+                  alt=""
+                />
+                </div>
+             <h1 className="lg:ml-[43%]">Founder</h1>
             <div
               className="NameContent  scale-50 opacity-30 animate-onScrollFade
         lg:mr-[150px]
-        ml-10 mr-10
+        ml-10 mr-10 mt-5
          lg:ml-[150px] lg:flex
-        flex-row gap-8  pb-5 text-zinc-400"
+        flex-row lg:flex-col gap-8  pb-5 text-zinc-400"
             >
-              <img
-                src={
-                  "https://drive.google.com/thumbnail?id=13uUtoqKD6Uzp5-eJQj5SN7R5FnI7Rgbn&sz=w1000"
-                }
-                alt=""
-                className="w-[65vw] lg:inline-block rounded-3xl h-[40vh] hidden"
-              />
-              <img
-                src={
-                  "https://drive.google.com/thumbnail?id=13uUtoqKD6Uzp5-eJQj5SN7R5FnI7Rgbn&sz=w1000"
-                }
-                alt=""
-                className="lg:hidden w-[30vw] rounded-3xl h-52 "
-              />
-              <p className="inline-block text-base p-12 border-b-2  pb-0 mt-2 pt-14 text-zinc-400">
-                Our passion is locating solutions to difficult space exploration
-                issues. <span className="text-white">Our attention?</span> Solving difficult problems in space
-                exploration is our passion.<span className="text-white"> Our priority?</span> manufacturing reusable
-                rockets that land gently where we want them to. Lower expenses
-                and shorter launch delays result from this. Our goal is to
-                increase accessibility for all people in space. That being said,
-                we are here to fulfill your curiosity about what is beyond of
-                our atmosphere. Together, let&apos;s go on this trip.
-              </p>
+             
+             {/* [img][/img]
+[img]https://i.ibb.co/zbdMZCF/Whats-App-Image-2023-09-25-at-15-15-00-5545a17a.jpg[/img] */}
+              <img src="https://i.ibb.co/zbdMZCF/Whats-App-Image-2023-09-25-at-15-15-00-5545a17a.jpg"
+                  className="inline-block h-[35vh]   ml-10   rounded-xl mb-10
+                  lg:h-[60vh] lg:w-[30vw] lg:ml-[23vw] lg:mt-5
+                  "
+                  alt=""
+                />
+                <p className="font-semibold lg:ml-[26vw] text-white lg:text-3xl 
+                text-2xl ml-10 
+                ">
+                Mahabaleshwar R Bhat 
+                
+
+
+                </p>
+                <p className="font-semibold ml-[35vw] lg:-mt-7 text-white lg:text-lg
+                mb-10
+                ">Founder</p>
+
+                 <img src="https://i.ibb.co/p1tZ59q/IMG20230915093553.jpg"
+                  className="inline-block h-[35vh] w  ml-10  rounded-xl
+                  lg:h-[60vh] lg:w-[30vw] lg:ml-[23vw] lg:mt-5
+                  "
+                  alt=""
+                />
+                  <p className=" font-semibold lg:ml-[30vw] text-white lg:text-3xl
+                   text-2xl ml-[66px]
+                  ">
+                  Raghupati G Bhat                
+
+
+                </p>
+                <p className=" lg:-mt-7 ml-[36vw] text-white lg:text-lg
+                
+                ">Founder</p>
+              
+               
+
             </div>
+            <h1 className="ml-[20vw] lg:ml-[40vw]">Supported By</h1>
             <div
-              className="NameContent scale-50 opacity-30 animate-onScrollFade
-        lg:mr-[150px]
-         lg:ml-[150px] lg:flex
-         ml-10 mr-10
-        flex-row gap-8  pb-5 text-zinc-400 mb-10"
+              className="NameContent scale-50 opacity-30 animate-onScrollFade 
+       
+         ml-12 mt-5 mr-10
+        flex-col
+          gap-8  pb-5 text-zinc-400 mb-10
+          lg:grid lg:grid-cols-5 lg:gap-5 lg:ml-[20vw] lg:mr-[20vw] lg:mt-16
+          "
             >
-              <img
-                src={"https://drive.google.com/thumbnail?id=1_6VaI06itOMtm_fG-N6jB9a9CGLViG50&sz=w1000"}
-                alt=""
-                className="lg:hidden w-80  rounded-3xl h-52"
-              />
-              <p className="inline-block text-base border-b-2 p-3 pr-10 pt-0 pb-12 mt-2 text-zinc-400 ">
-                <p className="text-white text-lg p-5 pb-1 pl-0">How are we achieving this?
-</p>
-                In our effort to reimagine space exploration, we&apos;re focused on
-                two critical systems: <span className="text-white block p-5 pb-0 pl-0 text-lg">the Reaction Control System (RCS)</span> 
-                <span className="text-white block p-2 pb-5 pl-0 text-lg">Electrically Powered Propulsion Turbine System (EPPTS)</span>Our
-                rockets are guided by the RCS, which allows for accurate
-                navigation from space to the intended position on Earth. It
-                guarantees precise landings and enables seamless atmospheric
-                re-entry, both of which are essential for improving reusability
-                and economy. Conversely, the EPPTS transforms conventional
-                rocket propulsion techniques. The intricate pre-burner cycle is
-                swapped out for a finely tuned electric pump, which maximizes
-                fuel injection and allows for accurate thrust control during
-                landing maneuvers. This novel method contributes to safer and
-                more affordable space travel in addition to improving the
-                effectiveness and dependability of rocket propulsion. When
-                combined, these solutions show tremendous progress toward our
-                objective of increasing accessibility and sustainability for
-                space exploration. With each innovation, we get closer to a
-                future in which the glories of space are accessible to everyone.
-              </p>
-              <img
-                src={"https://drive.google.com/thumbnail?id=13FFz_vMQ8Nb7kBVmDqpasEBrfwfypSWu&sz=w1000"}
-                alt=""
-                className="w-[80vw] h-[46vh] lg:inline-block rounded-3xl hidden "
-              />
+              <img src={"/supported/1.png"}
+                  className="inline-block w-[15vh] h-16 ml-5  lg:h-44 lg:-mt-10 rounded-xl mb-10"
+                  alt=""
+                />
+                 <img src={"/supported/2.png"}
+                  className="inline-block w-[15vh] h-16 ml-5 lg:h-44 lg:-mt-10 rounded-xl mb-5"
+                  alt=""
+                />
+                 <img src={"/supported/3.png"}
+                  className="inline-block w-[15vh] h-16 ml-5 lg:h-44 lg:-mt-10 rounded-xl mb-5"
+                  alt=""
+                />
+                 <img src={"/supported/4.png"}
+                  className="inline-block w-[15vh] h-16 ml-5 lg:h-44 lg:-mt-10 rounded-xl mb-5"
+                  alt=""
+                />
+                 <img src={"/supported/5.png"}
+                  className="inline-block w-[15vh] h-16 ml-5 lg:h-44 lg:-mt-10 rounded-xl mb-5"
+                  alt=""
+                />
+                 <img src={"/supported/6.png"}
+                  className="inline-block w-[15vh] h-16 ml-5 lg:h-44 lg:-mt-10 rounded-xl mb-5"
+                  alt=""
+                />
+                 <img src={"/supported/7.png"}
+                  className="inline-block w-[15vh] h-16 ml-5 lg:h-44 lg:-mt-10 rounded-xl mb-5"
+                  alt=""
+                />
+                 <img src={"/supported/8.png"}
+                  className="inline-block w-[15vh] h-16 ml-5 lg:h-44 lg:-mt-10 rounded-xl mb-5"
+                  alt=""
+                />
+                 <img src={"/supported/9.png"}
+                  className="inline-block w-[15vh] h-16 ml-5 lg:h-44 lg:-mt-10 rounded-xl mb-5"
+                  alt=""
+                />
+                 <img src={"/supported/10.png"}
+                  className="inline-block w-[15vh] h-16 ml-5 lg:h-44 lg:-mt-10 rounded-xl mb-5"
+                  alt=""
+                />
+             
+              
             </div>
-          </div>
+          
           <div className="footer">
             <Footer></Footer>
           </div>

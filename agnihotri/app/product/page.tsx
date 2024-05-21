@@ -41,7 +41,7 @@ function Product() {
                 <p className="text-xs lg:text-base">
                  The reaction control system will guide the rocket from
                   space to the desired landing location using a closed-loop
-                  algorithm. This system continuously adjusts the rocket's
+                  algorithm. This system continuously adjusts the rocket&apos;s
                   trajectory by comparing the actual position to the desired
                   path and making real-time corrections
                 </p>

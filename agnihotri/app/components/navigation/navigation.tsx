@@ -74,10 +74,7 @@ export default function Navigate() {
             {" "}
             <Link href="/">Home</Link>
           </p>
-          <p>
-            {" "}
-            <Link href="/">Home</Link>
-          </p>
+         
          
           <p>
             <Link href="/gallery">Gallery</Link>

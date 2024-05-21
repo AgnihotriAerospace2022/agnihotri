@@ -1,7 +1,5 @@
 "use client";
-
 import "./about.css";
-import Image from "next/image";
 import { useState, useEffect } from "react";
 
 import Navigate from "../components/navigation/navigation";
@@ -39,6 +37,23 @@ const About = () => {
                   className="inline-block h-[50vh] lg:h-[70vh]  lg:ml-10 lg:pl-10 pl-10 lg:-mt-10  "
                   alt=""
                 />
+                <div className="grid grid-cols-2 lg:-ml-64 lg:mb-20 lg:-mt-40">
+                  <h1 className=" text-left
+
+                   lg:px-[20%] lg:pb-8">At
+                   <br /> Agnihotri</h1>
+                  <div className="text-white text-left
+                  lg:px-[30%] lg:-ml-60">
+                    Our passion is locating solutions to difficult space exploration
+                    issues. <span className="text-white">Our attention?</span> Solving difficult problems in space
+                    exploration is our passion.<span className="text-white"> Our priority?</span> manufacturing reusable
+                    rockets that land gently where we want them to. Lower expenses
+                    and shorter launch delays result from this. Our goal is to
+                    increase accessibility for all people in space. That being said,
+                    we are here to fulfill your curiosity about what is beyond of
+                    our atmosphere. Together, let&apos;s go on this trip.
+                  </div>
+                </div>
                 </div>
              <h1 className="lg:ml-[43%]">Founder</h1>
             <div
@@ -100,43 +115,43 @@ const About = () => {
           "
             >
               <img src={"/supported/1.png"}
-                  className="inline-block w-[15vh] h-16 ml-5  lg:h-44 lg:-mt-10 rounded-xl mb-10"
+                  className="inline-block w-[15vh] h-16 ml-5  lg:w-[26vw] lg:-mt-10 rounded-xl mb-10"
                   alt=""
                 />
                  <img src={"/supported/2.png"}
-                  className="inline-block w-[15vh] h-16 ml-5 lg:h-44 lg:-mt-10 rounded-xl mb-5"
+                  className="inline-block w-[15vh] h-16 ml-5 lg:w-[26vw] lg:-mt-10 rounded-xl mb-5"
                   alt=""
                 />
                  <img src={"/supported/3.png"}
-                  className="inline-block w-[15vh] h-16 ml-5 lg:h-44 lg:-mt-10 rounded-xl mb-5"
+                  className="inline-block w-[15vh] h-16 ml-5 lg:w-[26vw] lg:-mt-10 rounded-xl mb-5"
                   alt=""
                 />
                  <img src={"/supported/4.png"}
-                  className="inline-block w-[15vh] h-16 ml-5 lg:h-44 lg:-mt-10 rounded-xl mb-5"
+                  className="inline-block w-[15vh] h-16 ml-5 lg:w-[26vw] lg:-mt-10 rounded-xl mb-5"
                   alt=""
                 />
                  <img src={"/supported/5.png"}
-                  className="inline-block w-[15vh] h-16 ml-5 lg:h-44 lg:-mt-10 rounded-xl mb-5"
+                  className="inline-block w-[15vh] h-16 ml-5 lg:w-[26vw] lg:-mt-10 rounded-xl mb-5"
                   alt=""
                 />
                  <img src={"/supported/6.png"}
-                  className="inline-block w-[15vh] h-16 ml-5 lg:h-44 lg:-mt-10 rounded-xl mb-5"
+                  className="inline-block w-[15vh] h-16 ml-5 lg:w-[26vw] lg:-mt-10 rounded-xl mb-5"
                   alt=""
                 />
                  <img src={"/supported/7.png"}
-                  className="inline-block w-[15vh] h-16 ml-5 lg:h-44 lg:-mt-10 rounded-xl mb-5"
+                  className="inline-block w-[15vh] h-16 ml-5 lg:w-[26vw] lg:-mt-10 rounded-xl mb-5"
                   alt=""
                 />
                  <img src={"/supported/8.png"}
-                  className="inline-block w-[15vh] h-16 ml-5 lg:h-44 lg:-mt-10 rounded-xl mb-5"
+                  className="inline-block w-[15vh] h-16 ml-5 lg:w-[26vw] lg:-mt-10 rounded-xl mb-5"
                   alt=""
                 />
                  <img src={"/supported/9.png"}
-                  className="inline-block w-[15vh] h-16 ml-5 lg:h-44 lg:-mt-10 rounded-xl mb-5"
+                  className="inline-block w-[15vh] h-16 ml-5 lg:w-[26vw] lg:-mt-10 rounded-xl mb-5"
                   alt=""
                 />
                  <img src={"/supported/10.png"}
-                  className="inline-block w-[15vh] h-16 ml-5 lg:h-44 lg:-mt-10 rounded-xl mb-5"
+                  className="inline-block w-[15vh] h-16 ml-5 lg:w-[26vw] lg:-mt-10 rounded-xl mb-5"
                   alt=""
                 />
              

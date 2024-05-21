@@ -7,7 +7,7 @@ import PageLoader from "../components/loader/pageLoader";
 
 function Contact() {
   const [isLoading, setIsLoading] = useState(true);
-  const [firstname, setFirstName] = useState(" kuiu");
+  const [firstname, setFirstName] = useState("");
   const [lastname, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [query, setQuery] = useState("");

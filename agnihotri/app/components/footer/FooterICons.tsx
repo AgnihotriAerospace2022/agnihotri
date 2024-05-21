@@ -1,8 +1,10 @@
 
 import  "./footer.css"  ;
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram ,faYoutube,faTwitter,faSquareFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { brands} from "@fortawesome/fontawesome-svg-core/import.macro";
+import { faInstagram ,faYoutube, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faMailBulk, faMessage } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons/faEnvelope";
+
 
 
 export default function Icons()
@@ -36,6 +38,8 @@ export default function Icons()
                                 </a>
                                 
             </div>
-            <h5 className="text-slate-50 lg:my-5 lg:ml-14 text-xs -ml-2 lg:text-lg">mahabaleshwarbhat@agnihotriaerospace.com</h5>
+            <a href="mailto:mahabaleshwarbhat@agnihotriaerospace.com" className="basis-6 hover:opacity-30">
+                                    <FontAwesomeIcon icon={faEnvelope} size="2xl" style={{color: "#ffffff",}} />
+                                </a>
     </>) ;
 }

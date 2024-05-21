@@ -34,7 +34,7 @@ const About = () => {
 
 
                   <img src={"/images/logo_white.png"}
-                  className="inline-block h-[50vh] lg:h-[70vh]  lg:ml-10 lg:pl-10 pl-10 lg:-mt-10  "
+                  className="inline-block h-[50vh] lg:h-[70vh] lg:w-[60vw]  lg:ml-72 lg:pl-10 pl-10 lg:-mt-10  "
                   alt=""
                 />
                 <div className="grid grid-cols-2 lg:-ml-64 lg:mb-20 lg:-mt-40">
@@ -60,19 +60,43 @@ const About = () => {
               className="NameContent  scale-50 opacity-30 animate-onScrollFade
         lg:mr-[150px]
         ml-10 mr-10 mt-5
-         lg:ml-[150px] lg:flex
-        flex-row lg:flex-col gap-8  pb-5 text-zinc-400"
+         lg:ml-[22%] lg:mb-52 flex
+        flex-row lg:flex-row gap-8  pb-5 text-zinc-400"
             >
-             
+
+             <div className="h-80 w-80 ">
+              <img src="https://i.ibb.co/zbdMZCF/Whats-App-Image-2023-09-25-at-15-15-00-5545a17a.jpg" 
+              className='rounded-2xl'
+              alt="" />
+              <p className="font-semibold lg:ml-2 text-center text-white lg:text-3xl 
+                text-2xl ml-10 
+                ">
+                Mahabaleshwar R Bhat 
+                
+
+
+                </p>
+             </div>
+             <div className="h-80 w-80 ml-24">
+              <img src="https://i.ibb.co/p1tZ59q/IMG20230915093553.jpg" alt="" className='rounded-2xl'/>
+              <p className="font-semibold lg:ml-2 text-center text-white lg:text-3xl 
+                text-2xl ml-10 
+                ">
+                Raghupati G Bhat
+                
+
+
+                </p>
+             </div>
              {/* [img][/img]
 [img]https://i.ibb.co/zbdMZCF/Whats-App-Image-2023-09-25-at-15-15-00-5545a17a.jpg[/img] */}
-              <img src="https://i.ibb.co/zbdMZCF/Whats-App-Image-2023-09-25-at-15-15-00-5545a17a.jpg"
+              {/* <img src="https://i.ibb.co/zbdMZCF/Whats-App-Image-2023-09-25-at-15-15-00-5545a17a.jpg"
                   className="inline-block h-[35vh]   ml-10   rounded-xl mb-10
-                  lg:h-[60vh] lg:w-[30vw] lg:ml-[23vw] lg:mt-5
+                  lg:h-[60vh] lg:w-[30vw] lg: lg:mt-5
                   "
                   alt=""
-                />
-                <p className="font-semibold lg:ml-[26vw] text-white lg:text-3xl 
+                /> */}
+                {/* <p className="font-semibold lg:ml-[26vw] text-white lg:text-3xl 
                 text-2xl ml-10 
                 ">
                 Mahabaleshwar R Bhat 
@@ -82,15 +106,15 @@ const About = () => {
                 </p>
                 <p className="font-semibold ml-[35vw] lg:-mt-7 text-white lg:text-lg
                 mb-10
-                ">Founder</p>
+                ">Founder</p> */}
 
-                 <img src="https://i.ibb.co/p1tZ59q/IMG20230915093553.jpg"
+                 {/* <img src="https://i.ibb.co/p1tZ59q/IMG20230915093553.jpg"
                   className="inline-block h-[35vh] w  ml-10  rounded-xl
                   lg:h-[60vh] lg:w-[30vw] lg:ml-[23vw] lg:mt-5
                   "
                   alt=""
-                />
-                  <p className=" font-semibold lg:ml-[30vw] text-white lg:text-3xl
+                /> */}
+                  {/* <p className=" font-semibold lg: text-white lg:text-3xl
                    text-2xl ml-[66px]
                   ">
                   Raghupati G Bhat                
@@ -99,7 +123,7 @@ const About = () => {
                 </p>
                 <p className=" lg:-mt-7 ml-[36vw] text-white lg:text-lg
                 
-                ">Founder</p>
+                ">Founder</p> */}
               
                
 
